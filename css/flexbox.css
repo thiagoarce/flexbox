@@ -51,6 +51,26 @@
     display: flex;
 }
 
+.videoSobre .container{
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 3;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
+.videoSobre-video{
+    flex-grow: 1;
+}
+
+
 /*parte mobile*/
 @media(max-width: 768px){
 .cabecalhoPrincipal-nav{
@@ -93,4 +113,9 @@ text-align: center;
 .rodapePrincipal-contatoForm-fieldset {
     justify-content:center
 }
+
+.cabecalhoPrincipal-nav-link-app{
+    order: -1;
 }
+}
+
